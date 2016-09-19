@@ -27,6 +27,9 @@ Plug 'majutsushi/tagbar'
 " undotree: show the undotree
 Plug 'mbbill/undotree', { 'on': 'UndotreeToggle' }
 
+" vim-grepper: helps you win at grep
+Plug 'mhinz/vim-grepper'
+
 " vim-bbye: don't close splits when closing a buffer
 Plug 'moll/vim-bbye'
 
@@ -39,9 +42,6 @@ Plug 'neomake/neomake'
 
 " YCM-Generator: Generates config files for YouCompleteMe
 Plug 'rdnetto/YCM-Generator', { 'branch': 'stable' }
-
-" ag.vim: interface to ag (The Silver Searcher)
-Plug 'rking/ag.vim'
 
 " rust: vim configuration for rust
 Plug 'rust-lang/rust.vim'
