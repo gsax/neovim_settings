@@ -33,6 +33,10 @@ Plug 'moll/vim-bbye'
 " gruvbox: nice colors
 Plug 'morhetz/gruvbox'
 
+" neomake: a plugin for asynchronous :make using Neovim's job-control
+" functionality
+Plug 'neomake/neomake'
+
 " YCM-Generator: Generates config files for YouCompleteMe
 Plug 'rdnetto/YCM-Generator', { 'branch': 'stable' }
 
