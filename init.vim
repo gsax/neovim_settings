@@ -33,6 +33,9 @@ Plug 'moll/vim-bbye'
 " gruvbox: nice colors
 Plug 'morhetz/gruvbox'
 
+" YCM-Generator: Generates config files for YouCompleteMe
+Plug 'rdnetto/YCM-Generator', { 'branch': 'stable' }
+
 " ag.vim: interface to ag (The Silver Searcher)
 Plug 'rking/ag.vim'
 
@@ -109,6 +112,11 @@ colorscheme molokai
 
 " keep some lines distance to the top and bottom
 set scrolloff=2
+
+" activate TrueColor support
+if (has("termguicolors"))
+	set termguicolors
+endif
 
 
 " Plugin Configuration
