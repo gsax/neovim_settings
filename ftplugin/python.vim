@@ -9,5 +9,5 @@ setlocal autoindent
 setlocal smarttab
 
 " syntastic config
-source ~/.config/nvim/config/syntastic.vim
-let g:syntastic_python_checkers = ['python', 'flake8']
+"source ~/.config/nvim/config/syntastic.vim
+"let g:syntastic_python_checkers = ['python', 'flake8']

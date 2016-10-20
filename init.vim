@@ -1,5 +1,7 @@
-" vim-plug settings
-"""""""""""""""""""
+" vim-plug settings {{{
+"""""""""""""""""""""""
+" Plugins {{{
+"""""""""""""
 " vim plugins path
 call plug#begin('~/.local/share/nvim/bundle')
 
@@ -115,9 +117,10 @@ Plug 'Xuyuanp/nerdtree-git-plugin'
 
 " GoldenView: Always have a nice view for vim split windows
 Plug 'zhaocai/GoldenView.Vim'
+" }}}
 
-" Color Schemes
-"""""""""""""""
+" Color Schemes {{{
+"""""""""""""""""""
 " NeoSolarized: A fixed solarized colorscheme for better truecolor support
 Plug 'iCyMind/NeoSolarized'
 
@@ -143,21 +146,27 @@ Plug 'sjl/badwolf'
 Plug 'tomasr/molokai'
 
 call plug#end()
+" }}}
+" }}}
 
 
-" Programming Section
-"""""""""""""""""""""
+" Programming Section {{{
+"""""""""""""""""""""""""
 scriptencoding utf-8
 
 " automatically give executable permissions if file begins with #! and
 " contains '/bin/' in the path
 au BufWritePost * if getline(1) =~ "^#!" | if getline(1) =~ "/bin/" | silent !chmod a+x <afile>
+" }}}
 
 
-" Misc Section
-""""""""""""""
+" Misc Section {{{
+""""""""""""""""""
 " set colorscheme
 colorscheme molokai
+
+" highlight the current line the cursor is in
+set cursorline
 
 " keep some lines distance to the top and bottom
 set scrolloff=2
@@ -166,10 +175,11 @@ set scrolloff=2
 if (has("termguicolors"))
 	set termguicolors
 endif
+" }}}
 
 
-" Plugin Configuration
-""""""""""""""""""""""
+" Plugin Configuration {{{
+""""""""""""""""""""""""""
 " CtrlP
 source ~/.config/nvim/config/ctrlp.vim
 
@@ -208,3 +218,6 @@ source ~/.config/nvim/config/vim-airline.vim
 
 " YouCompleteMe
 source ~/.config/nvim/config/YouCompleteMe.vim
+" }}}
+
+" vim:foldmethod=marker:foldlevel=0

@@ -1,4 +1,4 @@
-" map leader+c to check the current file
+" map leader+f to check the current file
 nnoremap <leader>f :SyntasticCheck<CR>
 
 " statusline settings
