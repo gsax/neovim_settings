@@ -8,11 +8,11 @@ let g:ycm_collect_identifiers_from_comments_and_strings = 1
 let g:ycm_seed_identifiers_with_syntax = 1
 
 " Interpreter which it was build against
-let g:ycm_server_python_interpreter = "/usr/bin/python2.7"
+let g:ycm_server_python_interpreter = '/usr/bin/python2.7'
 
 " set rust source directory
 let g:ycm_rust_src_path = '/usr/local/rust/rust-src'
 
 " Interpreter to use for completion
-let g:ycm_python_binary_path = "python3.5"
-"let g:ycm_python_binary_path = "python2.7"
+let g:ycm_python_binary_path = 'python3.5'
+"let g:ycm_python_binary_path = 'python2.7'

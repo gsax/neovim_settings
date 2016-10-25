@@ -2,4 +2,4 @@
 nnoremap <leader>t :TagbarToggle<CR>
 
 " set column width
-let g:tagbar_width = "50"
+let g:tagbar_width = 50
