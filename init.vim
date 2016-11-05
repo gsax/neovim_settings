@@ -115,6 +115,9 @@ Plug 'Valloric/YouCompleteMe'
 " nerdtree-git-plugin: A plugin of NERDTree showing git status
 Plug 'Xuyuanp/nerdtree-git-plugin'
 
+" deoplete-jedi: deoplete.nvim source for Python
+"Plug 'zchee/deoplete-jedi'
+
 " GoldenView: Always have a nice view for vim split windows
 Plug 'zhaocai/GoldenView.Vim'
 " }}}
