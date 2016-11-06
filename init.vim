@@ -119,7 +119,7 @@ Plug 'Xuyuanp/nerdtree-git-plugin'
 "Plug 'zchee/deoplete-jedi'
 
 " GoldenView: Always have a nice view for vim split windows
-Plug 'zhaocai/GoldenView.Vim'
+"Plug 'zhaocai/GoldenView.Vim'
 " }}}
 
 " Color Schemes {{{
@@ -187,7 +187,7 @@ endif
 source ~/.config/nvim/config/ctrlp.vim
 
 " GoldenView
-source ~/.config/nvim/config/GoldenView.vim
+"source ~/.config/nvim/config/GoldenView.vim
 
 " GnuPG
 source ~/.config/nvim/config/vim-gnupg.vim
