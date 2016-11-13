@@ -22,6 +22,9 @@ Plug 'ctrlpvim/ctrlp.vim'
 " jedi.vim: a python autocompletion
 Plug 'davidhalter/jedi-vim', { 'for': ['python'] }
 
+" supertab: Perform all your vim insert mode completions with Tab
+Plug 'ervandew/supertab'
+
 " vim-esearch: Perform search in files easily
 "Plug 'eugen0329/vim-esearch'
 
@@ -56,7 +59,7 @@ Plug 'moll/vim-bbye'
 Plug 'neomake/neomake'
 
 " YCM-Generator: Generates config files for YouCompleteMe
-Plug 'rdnetto/YCM-Generator', { 'branch': 'stable' }
+"Plug 'rdnetto/YCM-Generator', { 'branch': 'stable' }
 
 " sparkup: A parser for a condensed HTML format
 "Plug 'rstacruz/sparkup'
@@ -80,7 +83,10 @@ Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
 "Plug 'Shougo/denite.nvim'
 
 " deoplete: dark powered asynchronous completion framework
-"Plug 'Shougo/deoplete.nvim'
+Plug 'Shougo/deoplete.nvim'
+
+" neopairs: Auto insert pairs when complete done
+"Plug 'Shougo/neopairs.vim'
 
 " vimproc: interactive command execution in vim
 "Plug 'Shougo/vimproc.vim'
@@ -107,7 +113,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
 " YouCompleteMe: fast autocompletion
-Plug 'Valloric/YouCompleteMe'
+"Plug 'Valloric/YouCompleteMe'
 
 " vim-easytags: automatic ctags creation, depends on vim-misc
 "Plug 'xolox/vim-misc' | Plug 'xolox/vim-easytags'
@@ -116,7 +122,7 @@ Plug 'Valloric/YouCompleteMe'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 
 " deoplete-jedi: deoplete.nvim source for Python
-"Plug 'zchee/deoplete-jedi'
+Plug 'zchee/deoplete-jedi'
 
 " GoldenView: Always have a nice view for vim split windows
 "Plug 'zhaocai/GoldenView.Vim'
@@ -186,6 +192,9 @@ endif
 " CtrlP
 source ~/.config/nvim/config/ctrlp.vim
 
+" deoplete
+source ~/.config/nvim/config/deoplete.vim
+
 " GoldenView
 "source ~/.config/nvim/config/GoldenView.vim
 
@@ -220,7 +229,7 @@ source ~/.config/nvim/config/undotree.vim
 source ~/.config/nvim/config/vim-airline.vim
 
 " YouCompleteMe
-source ~/.config/nvim/config/YouCompleteMe.vim
+"source ~/.config/nvim/config/YouCompleteMe.vim
 " }}}
 
 " vim:foldmethod=marker:foldlevel=0

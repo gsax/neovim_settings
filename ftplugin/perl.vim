@@ -15,7 +15,3 @@ if exists('+longlines')
 else
 	au! BufEnter <buffer> match longlines /\%80v.*/
 endif
-
-" syntastic config
-"source ~/.config/nvim/config/syntastic.vim
-"let g:syntastic_perl_checkers = ['perlcritic', 'podchecker']

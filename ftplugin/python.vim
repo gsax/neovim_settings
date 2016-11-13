@@ -8,6 +8,10 @@ setlocal softtabstop=4
 setlocal autoindent
 setlocal smarttab
 
-" syntastic config
-"source ~/.config/nvim/config/syntastic.vim
-"let g:syntastic_python_checkers = ['python', 'flake8']
+let g:deoplete#omni#functions = {}
+let g:deoplete#omni#functions#python = [
+	\ 'jedi#Complete'
+	\]
+
+let g:deoplete#sources = {}
+let g:deoplete#sources['python'] = ['buffer', 'file', 'jedi']
