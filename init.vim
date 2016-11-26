@@ -32,7 +32,7 @@ Plug 'ervandew/supertab'
 Plug 'gsax/scratch.vim'
 
 " tabular: Vim script for text filtering and alignment
-"Plug 'godlygeek/tabular'
+Plug 'godlygeek/tabular'
 
 " vim-gnupg: transparent editing of PGP files
 Plug 'jamessan/vim-gnupg'
@@ -84,9 +84,6 @@ Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
 
 " deoplete: dark powered asynchronous completion framework
 Plug 'Shougo/deoplete.nvim'
-
-" neopairs: Auto insert pairs when complete done
-"Plug 'Shougo/neopairs.vim'
 
 " vimproc: interactive command execution in vim
 "Plug 'Shougo/vimproc.vim'
