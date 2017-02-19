@@ -13,5 +13,5 @@ let g:pymode_breakpoint = 0
 " disable code linting, we have neomake
 let g:pymode_lint = 0
 
-" disable rope support, we use ycm
+" disable rope support, we use jedi
 let g:pymode_rope = 0
