@@ -91,6 +91,9 @@ Plug 'Shougo/deoplete.nvim'
 " ultisnips: the ultimate snippet solution for vim
 "Plug 'SirVer/ultisnips'
 
+" vim-hardtime: Plugin to help you stop repeating the basic movement keys
+Plug 'takac/vim-hardtime'
+
 " vim-characterize: shows unicode of a char
 Plug 'tpope/vim-characterize'
 
@@ -102,6 +105,9 @@ Plug 'tpope/vim-fugitive'
 
 " vim-surround: easy surround things
 "Plug 'tpope/vim-surround'
+
+" vim-autoclose:
+"Plug 'Townk/vim-autoclose'
 
 " vim-airline: lean & mean status/tabline for vim that's light as air
 Plug 'vim-airline/vim-airline'
@@ -150,6 +156,12 @@ Plug 'sjl/badwolf'
 
 " molokai: Molokai color scheme for Vim
 Plug 'tomasr/molokai'
+
+" vim-gotham: Code never sleeps in Gotham City
+Plug 'whatyouhide/vim-gotham'
+
+" krxt:
+Plug 'https://bitbucket.org/kb/vim-colorscheme-krxt.git'
 
 call plug#end()
 " }}}
@@ -224,6 +236,9 @@ source ~/.config/nvim/config/undotree.vim
 
 " vim-airline
 source ~/.config/nvim/config/vim-airline.vim
+
+" vim-hardtime
+source ~/.config/nvim/config/vim-hardtime.vim
 
 " YouCompleteMe
 "source ~/.config/nvim/config/YouCompleteMe.vim
