@@ -58,6 +58,9 @@ Plug 'moll/vim-bbye'
 " neomake: Async :make and linting framework for Neovim/Vim
 Plug 'neomake/neomake'
 
+" html5.vim: HTML5 omnicomplete and syntax
+Plug 'othree/html5.vim'
+
 " YCM-Generator: Generates config files for YouCompleteMe
 "Plug 'rdnetto/YCM-Generator', { 'branch': 'stable' }
 
