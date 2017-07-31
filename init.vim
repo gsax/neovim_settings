@@ -92,7 +92,7 @@ Plug 'Shougo/deoplete.nvim'
 "Plug 'Shougo/vimproc.vim'
 
 " ultisnips: the ultimate snippet solution for vim
-"Plug 'SirVer/ultisnips'
+Plug 'SirVer/ultisnips'
 
 " vim-hardtime: Plugin to help you stop repeating the basic movement keys
 Plug 'takac/vim-hardtime'
@@ -184,7 +184,7 @@ au BufWritePost * if getline(1) =~ "^#!" | if getline(1) =~ "/bin/" | silent !ch
 " Misc Section {{{
 """"""""""""""""""
 " set colorscheme
-colorscheme molokai
+colorscheme gotham
 
 " highlight the current line the cursor is in
 set cursorline
@@ -233,6 +233,9 @@ source ~/.config/nvim/config/scratch.vim
 
 " Tagbar
 "source ~/.config/nvim/config/tagbar.vim
+
+" ultisnips
+source ~/.config/nvim/config/ultisnips.vim
 
 " Undotree
 source ~/.config/nvim/config/undotree.vim
