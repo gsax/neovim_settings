@@ -51,6 +51,9 @@ Plug 'othree/html5.vim'
 " vim-man: View and grep man pages in vim
 Plug 'vim-utils/vim-man'
 
+" neomake: Async :make and linting framework for Neovim/Vim
+Plug 'neomake/neomake'
+
 " NERDCommenter: orgasmic comments
 Plug 'scrooloose/nerdcommenter'
 
@@ -59,9 +62,6 @@ Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
 
 " nerdtree-git-plugin: A plugin of NERDTree showing git status
 Plug 'Xuyuanp/nerdtree-git-plugin', { 'on': 'NERDTreeToggle' }
-
-" neomake: Async :make and linting framework for Neovim/Vim
-Plug 'neomake/neomake'
 
 " python-mode
 Plug 'klen/python-mode', { 'for': ['python'] }
@@ -137,14 +137,17 @@ source ~/.config/nvim/config/gnupg.vim
 " vim-hardtime
 source ~/.config/nvim/config/hardtime.vim
 
+" custom keybindings
+source ~/.config/nvim/config/keybindings.vim
+
+" neomake
+source ~/.config/nvim/config/neomake.vim
+
 " NERDCommenter
 source ~/.config/nvim/config/nerdcommenter.vim
 
 " NERDTree
 source ~/.config/nvim/config/nerdtree.vim
-
-" neomake
-source ~/.config/nvim/config/neomake.vim
 
 " python mode
 source ~/.config/nvim/config/python-mode.vim
