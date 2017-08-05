@@ -48,6 +48,9 @@ Plug 'takac/vim-hardtime'
 " html5.vim: HTML5 omnicomplete and syntax
 Plug 'othree/html5.vim'
 
+" Vim-Jinja2-Syntax: An up-to-date jinja2 syntax file.
+Plug 'Glench/Vim-Jinja2-Syntax'
+
 " vim-man: View and grep man pages in vim
 Plug 'vim-utils/vim-man'
 
