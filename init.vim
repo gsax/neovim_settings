@@ -3,7 +3,7 @@
 " Plugins {{{
 """""""""""""
 " vim plugins path
-call plug#begin('~/.local/share/nvim/bundle')
+call plug#begin('$VIMBUNDLE')
 
 " vim-airline: lean & mean status/tabline for vim that's light as air
 Plug 'vim-airline/vim-airline'
@@ -126,40 +126,40 @@ endif
 " Plugin Configuration {{{
 """"""""""""""""""""""""""
 " vim-airline
-source ~/.config/nvim/config/airline.vim
+source $VIMCONFIG/airline.vim
 
 " deoplete
-source ~/.config/nvim/config/deoplete.vim
+source $VIMCONFIG/deoplete.vim
 
 " fzf
-source ~/.config/nvim/config/fzf.vim
+source $VIMCONFIG/fzf.vim
 
 " GnuPG
-source ~/.config/nvim/config/gnupg.vim
+source $VIMCONFIG/gnupg.vim
 
 " vim-hardtime
-source ~/.config/nvim/config/hardtime.vim
+source $VIMCONFIG/hardtime.vim
 
 " custom keybindings
-source ~/.config/nvim/config/keybindings.vim
+source $VIMCONFIG/keybindings.vim
 
 " neomake
-source ~/.config/nvim/config/neomake.vim
+source $VIMCONFIG/neomake.vim
 
 " NERDCommenter
-source ~/.config/nvim/config/nerdcommenter.vim
+source $VIMCONFIG/nerdcommenter.vim
 
 " NERDTree
-source ~/.config/nvim/config/nerdtree.vim
+source $VIMCONFIG/nerdtree.vim
 
 " python mode
-source ~/.config/nvim/config/python-mode.vim
+source $VIMCONFIG/python-mode.vim
 
 " ultisnips
-source ~/.config/nvim/config/ultisnips.vim
+source $VIMCONFIG/ultisnips.vim
 
 " Undotree
-source ~/.config/nvim/config/undotree.vim
+source $VIMCONFIG/undotree.vim
 " }}}
 
 " vim:foldmethod=marker:foldlevel=0
