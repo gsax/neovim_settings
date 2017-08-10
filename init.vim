@@ -32,6 +32,9 @@ Plug 'tpope/vim-fugitive'
 " fzf: A command-line fuzzy finder written in Go
 Plug 'junegunn/fzf', { 'dir': '~/.go/src/github.com/junegunn/fzf/' }
 
+" fzf.vim: fzf ❤️ vim
+Plug 'junegunn/fzf.vim'
+
 " vim-gitgutter: A Vim plugin which shows a git diff in the gutter
 " (signcolumn) and stages/undoes hunks
 Plug 'airblade/vim-gitgutter'
@@ -136,6 +139,9 @@ source $VIMCONFIG/fzf.vim
 
 " GnuPG
 source $VIMCONFIG/gnupg.vim
+
+" Grepper
+source $VIMCONFIG/grepper.vim
 
 " vim-hardtime
 source $VIMCONFIG/hardtime.vim

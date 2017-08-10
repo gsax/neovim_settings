@@ -1,5 +1,5 @@
 " map leader+u to toggle undotree
-nnoremap <leader>u :UndotreeToggle<CR>
+nnoremap <leader>tu :UndotreeToggle<CR>
 
 " set column width
 let g:undotree_SplitWidth = 50
