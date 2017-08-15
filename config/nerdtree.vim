@@ -1,2 +1,2 @@
-" map leader+a to toggle NERDTree
-nnoremap <leader>tn :NERDTreeToggle<CR>
+" map leader+t+n to toggle NERDTree
+nnoremap <silent><leader>tn :NERDTreeToggle<CR>
