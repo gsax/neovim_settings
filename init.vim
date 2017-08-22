@@ -17,6 +17,9 @@ Plug 'moll/vim-bbye'
 " vim-characterize: shows unicode of a char
 Plug 'tpope/vim-characterize'
 
+" closetag.vim: Auto close (X)HTML tags
+Plug 'alvan/vim-closetag'
+
 " deoplete: dark powered asynchronous completion framework
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 
@@ -77,6 +80,9 @@ Plug 'rust-lang/rust.vim', { 'for': ['rust'] }
 
 " supertab: Perform all your vim insert mode completions with Tab
 Plug 'ervandew/supertab'
+
+" surround.vim: quoting/parenthesizing made simple
+Plug 'tpope/vim-surround'
 
 " tabular: Vim script for text filtering and alignment
 Plug 'godlygeek/tabular'
