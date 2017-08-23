@@ -6,3 +6,6 @@ set completeopt=longest,menuone,preview
 
 " Cycle trough available completions with <TAB>
 let g:SuperTabDefaultCompletionType = "<c-x><c-n>"
+
+" Close preview window after completion
+autocmd CompleteDone * pclose!
