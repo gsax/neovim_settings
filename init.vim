@@ -48,9 +48,6 @@ Plug 'jamessan/vim-gnupg'
 " vim-grepper: helps you win at grep
 Plug 'mhinz/vim-grepper'
 
-" vim-hardtime: Plugin to help you stop repeating the basic movement keys
-Plug 'takac/vim-hardtime'
-
 " html5.vim: HTML5 omnicomplete and syntax
 Plug 'othree/html5.vim'
 
@@ -148,9 +145,6 @@ source $VIMCONFIG/gnupg.vim
 
 " Grepper
 source $VIMCONFIG/grepper.vim
-
-" vim-hardtime
-source $VIMCONFIG/hardtime.vim
 
 " custom keybindings
 source $VIMCONFIG/keybindings.vim
