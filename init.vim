@@ -113,10 +113,22 @@ au BufWritePost * if getline(1) =~ "^#!" | if getline(1) =~ "/bin/" | silent !ch
 
 " Misc Section {{{
 """"""""""""""""""
+" disable python2
+let g:loaded_python_provider = 1
+
+" set python3 provider
+let g:python3_host_prog = "/home/chaisen/.local/share/nvim/Python3/bin/python3"
+
+" disable ruby
+let g:loaded_ruby_provider = 1
+
+" disable node
+let g:loaded_node_provider = 1
+
 " set colorscheme
 colorscheme atom-dark
 
-" highlight the current line the cursor is in
+" highlight the current line
 set cursorline
 
 " keep some lines distance to the top and bottom
