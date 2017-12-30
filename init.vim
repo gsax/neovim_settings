@@ -84,6 +84,9 @@ Plug 'tpope/vim-surround'
 " tabular: Vim script for text filtering and alignment
 Plug 'godlygeek/tabular'
 
+" vim-toml: Vim syntax for TOML
+Plug 'cespare/vim-toml'
+
 " ultisnips: the ultimate snippet solution for vim
 Plug 'SirVer/ultisnips'
 
