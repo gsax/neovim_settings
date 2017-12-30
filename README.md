@@ -1,5 +1,3 @@
-# neovim_settings
-
-## Description
+# nvim dotfiles
 
 My settings for neovim.
